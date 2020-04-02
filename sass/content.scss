@@ -5,6 +5,7 @@ body {
   overflow-y: scroll !important ;
   margin: 0 ;
   position: relative ;
+  background-color: #000000;
 }
 
 #optionBar {
@@ -126,11 +127,12 @@ pre {
   left: -2px ;
   top: 1px ;
   z-index: 5 ;
+  background-color: #ffff;
   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAD1JREFUeNpiYGBgOADE%2F3Hgw0DM4IRHgSsDFOzFInmMAQnY49ONzZRjDFiADT7dMLALiE8y4AGW6LoBAgwAuIkf%2F%2FB7O9sAAAAASUVORK5CYII%3D") ;
   background-repeat: no-repeat ;
   background-position: center center; 
   display: block ;
-  opacity: 0.15 ;
+  opacity: 0.45 ;
   // -webkit-transition: -webkit-transform 0.05s linear ;
 
   .collapsed > & {
@@ -190,10 +192,10 @@ pre {
   }
   .bl, .nl, .n { /* bool, null, number */
     font-weight: bold ;
-    color: #1A01CC ;
+    color: #7562ff ;
   }
   .k { /* key */
-    color: black ;
+    color: #d9d9d9 ;
   }
 
 #formattingMsg {
